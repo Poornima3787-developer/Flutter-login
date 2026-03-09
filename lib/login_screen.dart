@@ -7,7 +7,7 @@ class LoginScreen extends StatelessWidget{
     return Scaffold(
       body:Padding(
         padding:EdgeInsets.all(30),
-        child:Column(
+        child:SingleChildScrollView(child: Column(
           children:[
             SizedBox(height:80),
             Text("LOGO",
@@ -109,7 +109,7 @@ class LoginScreen extends StatelessWidget{
              ),
 
           ]
-        ),
+        ),)
       ),
     );
   }

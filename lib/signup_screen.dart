@@ -4,7 +4,8 @@ import 'login_screen.dart';
 class SignUpForm extends StatelessWidget{
   Widget build(BuildContext context){
     return Scaffold(
-      body:Padding(
+      body:SingleChildScrollView(
+      child:Padding(
         padding:EdgeInsets.all(30),
         child:Column(
           children:[
@@ -153,6 +154,7 @@ class SignUpForm extends StatelessWidget{
          )
           ],
         ),
+      ),
       ),
     );
   }
